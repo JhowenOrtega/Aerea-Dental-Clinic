@@ -1,0 +1,149 @@
+.dashboard-page{
+    display: flex;
+    color: black;
+    width: 100%;
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+
+.main{
+    padding: 50px;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-board{
+    width: 70%;
+   
+}
+
+.board{
+}
+
+.main-board,
+.board {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;  
+}
+
+.sidebar    { 
+    padding: 10px;
+    width: 20%;
+    position: relative;
+}
+
+.logo {
+    padding-left: 20px;
+    height: 100px;
+    width: 218.27px;
+}
+
+.sidebar-options {
+    padding: 0 20px;
+    height: 40%;
+    justify-content: space-evenly;
+}
+
+.sign-out {
+    position: absolute;
+    bottom: 10px;
+}
+
+.option,
+.sign-out {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.option>img,
+.sign-out>img {
+    height: 40px;
+    width: 40px;
+}
+
+.option > p,
+.sign-out > p {
+    align-self: center;
+} 
+
+section.main-content,
+.board .patient-name,
+.board .upcoming-appointment,
+.board .date-picker {
+    display: flex;
+    background-color: white;
+    padding: 30px; 
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    height: max-content;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0 lightgrey;
+}
+
+.main-content {
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5% 0;
+    height: auto;
+    gap: 50px;
+}
+
+.main-content-title {
+    color: #2A5E4E;
+    font-weight: bold;
+}
+
+.sidebar-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.notification-icon {
+    position: relative;
+}
+
+.notification-icon > img {
+    position: absolute;
+    right: 0;
+}
+
+.patient-name {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.patient-name + img {
+}
+
+.dashboard-text{
+    color: #2A5E4E;
+    font-size: 30px;
+}
+
+.sign-out{
+    color: #538D81;
+    text-align: center;
+}
+
+.icon {
+    height: 32px;
+    width: 32px;
+    background-size: cover;
+}
