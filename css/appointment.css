@@ -10,9 +10,13 @@ a {
     text-decoration: none;
 }
 
-.book-appointment-page {
+.appointment-page {
     display: flex;
 }
+
+
+
+/* DRAWER */
 
 .sidebar {
     display: flex;
@@ -21,8 +25,6 @@ a {
     border-right: 2px solid #ddd;
     height: 100vh;
 }
-
-/* DRAWER */
 
 .drawer {
     flex-grow: 1;
@@ -42,25 +44,31 @@ a {
     gap: 10px;
 }
 
-.body {
+/* MAIN BODY */
+
+.main {
     background-color: #EEF9FC;
-    width: 70%;
+    width: 100vw;
     height: 100vh;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
-.body h1 {
+h1 {
     color: #2A5E4E;
 }
 
-.book {
-    display: flex;
-}
-
-.body .book-button {
+button {
     background-color: #59A48D;
     border: none;
     padding: 4px 32px;
     border-radius: 8px;
     color: white;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2A5E4E;
 }

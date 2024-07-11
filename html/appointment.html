@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookappoinment</title>
-    <link rel="stylesheet" href="../css/Bookappointment.css">
+    <link rel="stylesheet" href="../css/appointment.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
 </head>
-<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 <body>
-    <section class="book-appointment-page">
+    <section class="appointment-page">
         <section>
             <div class="sidebar">
                 
@@ -53,16 +54,21 @@
             </div>
         </section>
     
-        <section class="body">
+        <section class="main">
             <h1>Book Appointment</h1>
+            <br>
 
-            <div class="book">
-                <button class="book-button">
-                    + BOOK
-                </button>
-            </div>
+            <button class="button" onclick="navigateToNextScreen()">
+                + BOOK
+            </button>
         </section>
     </section>
+
+    <script>
+        function navigateToNextScreen() {
+            window.location.href = "./book_form.html";
+        }
+    </script>
     
 </body>
 </html>
