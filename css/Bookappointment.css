@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.book-appointment-page {
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+    height: 100vh;
+}
+
+/* DRAWER */
+
+.drawer {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.sign-out {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.body {
+    background-color: #EEF9FC;
+    width: 70%;
+    height: 100vh;
+    padding: 40px;
+}
+
+.body h1 {
+    color: #2A5E4E;
+}
+
+.book {
+    display: flex;
+}
+
+.body .book-button {
+    background-color: #59A48D;
+    border: none;
+    padding: 4px 32px;
+    border-radius: 8px;
+    color: white;
+}
