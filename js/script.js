@@ -39,16 +39,31 @@ function renderCalendar() {
                 ? ` class="today"`
                 : "";
 
-        datesHtml += `<li${className}>${i}</li>`;
+        datesHtml += `<li${className} >${i}</li>`;
     }
 
     for (i = end; i < 6; i++) {
-        datesHtml += `<li class="inactive">${i - end + 1}</li>`
+        datesHtml += `<li class="inactive" >${i - end + 1}</li>`
     }
 
     dates.innerHTML = datesHtml;
     header.textContent = `${months[month]} ${year}`
+
+    document.querySelectorAll(".dates li:not(.inactive)").forEach(dateElement => {
+        dateElement.addEventListener("click", function() {
+            const selectedDate = this.getAttribute("data-date");
+            goToDatePage(selectedDate);
+        });
+    });
 }
+
+function goToDatePage(date) {
+    // Assuming you want to redirect to a page named `appointment.html`
+    // You can change the URL format as per your requirement
+    window.location.href =  "../html/edit_appointment.html";
+}
+
+
 
 navs.forEach(nav => {
     nav.addEventListener("click", e => {
@@ -99,6 +114,23 @@ function togglePopUp() {
         
     });
 }
+
+function backToDashboard() {
+    window.location.href = "../html/dashboard.html";
+}
+
+function goToReschedule() {
+    window.location.href = "../html/reschedule.html";
+}
+
+function goToAppointment() {
+    window.location.href = "../html/appointment.html";
+}
+
+function goBack() {
+    window.history.back();
+}
+
 
 
 

@@ -152,6 +152,7 @@ h2 {
 
 .dates li.today {
     color: white;
+
 }
 
 .dates li.today::before {
@@ -166,6 +167,7 @@ h2 {
     padding: 0 12px;
     z-index: -1;
 }
+
 
 .days li.inactive {
     color: #ccc;

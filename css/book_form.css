@@ -66,6 +66,7 @@ h4 {
     border: none;
     padding: 10px 12px;
     margin-top: 4px;
+    color: black;
 }
 
 button {
@@ -81,4 +82,21 @@ button {
 button:hover {
     background-color: #2A5E4E;
 }
+
+
+/* EDIT APPOINTMENT */
+.main {
+    height: 100vh;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.actions > button {
+    background-color: #6FCDBA;
+}
+
 

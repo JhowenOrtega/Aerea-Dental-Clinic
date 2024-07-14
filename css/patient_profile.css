@@ -75,3 +75,7 @@ button {
 #change-password {
     cursor: pointer;
 }
+
+#close {
+    cursor: pointer;
+}
