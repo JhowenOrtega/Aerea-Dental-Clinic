@@ -14,6 +14,11 @@ a {
     display: flex;
 }
 
+h2 {
+    color: #2A5E4E;
+    font-size: 30px;
+}
+
 
 /* DRAWER */
 
@@ -57,15 +62,22 @@ a {
     width: 32px;
 }
 
-.favorite-section {
-    display: flex;
+.rating {
+    width: 25%;
 }
+
+.stars {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 button {
     margin-top: 12px;
     background-color: #59A48D;
     border: none;
-    padding: 4px 52px;
+    padding: 12px 105px;
     border-radius: 8px;
     color: white;
     margin-left: auto;
@@ -74,4 +86,16 @@ button {
 
 button:hover {
     background-color: #2A5E4E;
+}
+
+.experience {
+    margin-top: 12px;
+    border: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 40px;
 }
