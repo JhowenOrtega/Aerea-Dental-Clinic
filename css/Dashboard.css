@@ -115,7 +115,6 @@ body {
 }
 
 
-
 .main-content {
     width: 100%;
 }
@@ -147,6 +146,10 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
+}
+
+#patient-profile {
+    cursor: pointer;
 }
 
 h2 {
