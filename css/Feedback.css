@@ -30,6 +30,10 @@ h2 {
     height: 100vh;
 }
 
+.active-tile {
+    filter: invert(50%) sepia(20%) saturate(691%) hue-rotate(117deg) brightness(96%) contrast(87%);
+}
+
 .drawer {
     flex-grow: 1;
     width: 100%;
@@ -46,6 +50,7 @@ h2 {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: #538D81;
 }
 
 .main {

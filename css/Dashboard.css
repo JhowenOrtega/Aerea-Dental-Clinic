@@ -51,6 +51,10 @@ body {
     background-color: white;
 }
 
+.active-tile {
+    filter: invert(50%) sepia(20%) saturate(691%) hue-rotate(117deg) brightness(96%) contrast(87%);
+}
+
 .drawer {
     flex-grow: 1;
     width: 100%;
@@ -67,6 +71,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: #538D81;
 }
 
 .sidebar-options {
@@ -154,9 +159,6 @@ h2 {
     text-align: center;
 }
 
-.appointment {
-}
-
 .appointment h4 {
     margin: auto;
     text-align: center;
@@ -172,7 +174,6 @@ h2 {
 
 
 /* CALENDAR */
-
 
 .calendar header {
     display: flex;

@@ -73,3 +73,8 @@ navs.forEach(nav => {
 });
 
 renderCalendar();
+
+function navigateToNextScreen() {
+    window.location.href = "./book_form.html";
+}
+

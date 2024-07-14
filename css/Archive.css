@@ -24,6 +24,10 @@ a {
     height: 100vh;
 }
 
+.active-tile {
+    filter: invert(50%) sepia(20%) saturate(691%) hue-rotate(117deg) brightness(96%) contrast(87%);
+}
+
 .drawer {
     flex-grow: 1;
     width: 100%;
@@ -40,6 +44,7 @@ a {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: #538D81;
 }
 
 /* BODY */
@@ -58,7 +63,7 @@ h1 {
 
 .record-all {
     margin-top: 12px;
-    padding: 8px 18px;
+    padding: 8px 48px;
     border-radius: 4px;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
