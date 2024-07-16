@@ -62,18 +62,47 @@ h1 {
 }
 
 .record-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 12px;
-    padding: 8px 48px;
+    padding: 24px 48px;
     border-radius: 4px;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .table {
-    margin-top: 12px;
-    padding: 8px 18px;
-    border-radius: 4px;
+    margin-top: 36px;
+    padding: 24px 48px;
+    border-radius: 8px;
     background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
     width: 100%;
+}
+
+button {
+    background-color: #D9D9D9;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkmark {
+    /* Adjust position if needed */
+    vertical-align: middle; /* Example: Align with text */
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }

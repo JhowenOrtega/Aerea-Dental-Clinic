@@ -97,27 +97,7 @@ document.getElementById("patient-profile").addEventListener("click", function() 
     window.location.href = "../html/patient_profile.html";
 });
 
-function togglePopUp() {
-    document.addEventListener("DOMContentLoaded", (event) => {
-        var modal = document.getElementById("my-modal");
-        var btn = document.getElementById("change-password");
-    
-        btn.onclick = function() {
-            modal.style.display = "block";
-        };
-    
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-        
-    });
-}
 
-function backToDashboard() {
-    window.location.href = "../html/dashboard.html";
-}
 
 function goToReschedule() {
     window.location.href = "../html/reschedule.html";
@@ -130,6 +110,8 @@ function goToAppointment() {
 function goBack() {
     window.history.back();
 }
+
+// MODAL
 
 
 
