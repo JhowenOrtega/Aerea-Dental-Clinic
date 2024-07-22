@@ -172,3 +172,41 @@ h2 {
 .days li.inactive {
     color: #ccc;
 }
+
+.table, .row-header {
+    margin-top: 36px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkmark {
+    /* Adjust position if needed */
+    vertical-align: middle; /* Example: Align with text */
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 24px 12px;
+}
+
+th, td {
+    text-align: center;
+}
+
+.visible {
+    visibility: hidden;
+}

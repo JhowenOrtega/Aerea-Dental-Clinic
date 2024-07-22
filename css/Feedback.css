@@ -104,3 +104,33 @@ footer {
     right: 0;
     padding: 40px;
 }
+
+/* FOR ALL THE BOX */
+.container {
+    margin: auto;
+    width: 100%;
+    padding: 30px; 
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0 lightgrey;
+    background-color: white;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px dashed;
+    width: 100%;
+}
+
